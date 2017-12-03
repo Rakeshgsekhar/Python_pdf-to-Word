@@ -1,7 +1,7 @@
 import PyPDF2
 import docx
 
-
+// it simply read a file sample.pdf and read all the infor from it and saves it to default.docx
 pdfFileobj = open('sample.pdf','rb')
 
 pdfReader = PyPDF2.PdfFileReader(pdfFileobj)
